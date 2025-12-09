@@ -3,13 +3,18 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background-image: url('https://tse3.mm.bing.net/th/id/OIP.aj3yTlX5dRdiPdZ1hCKUHAHaHa?pid=ImgDet&w=189&h=189&c=7&o=7&rm=3');   /* path to your image */
+  background-size: cover;                    /* scales image to cover entire area */
+  background-repeat: no-repeat;              /* prevents tiling */
+  background-position: center;        /* centers the image */
+  height: 100vh;                             /* full viewport height */
+  margin: 
   color: #333;
 }
 
 /* Header */
 header {
-  background: #333;
+  background: BB89D4;
   color: white;
   padding: 15px;
   text-align: center;
@@ -31,15 +36,16 @@ header nav ul li a {
 section {
   padding: 20px;
   margin: 20px;
-  background: white;
+  background: transparent;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Footer */
 footer {
-  background: #333;
+  background: #87D487;
   color: white;
   text-align: center;
   padding: 10px;
 }
+
