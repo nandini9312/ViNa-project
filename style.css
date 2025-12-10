@@ -3,43 +3,47 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('https://tse3.mm.bing.net/th/id/OIP.aj3yTlX5dRdiPdZ1hCKUHAHaHa?pid=ImgDet&w=189&h=189&c=7&o=7&rm=3');   /* path to your image */
-  background-size: cover;                    /* scales image to cover entire area */
-  background-repeat: no-repeat;              /* prevents tiling */
-  background-position: center;        /* centers the image */
-  height: 100vh;                             /* full viewport height */
-  margin: 
   color: #333;
 }
 
 /* Header */
 header {
-  background: BB89D4;
+  background: #BB89D4; /* corrected hex color */
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
+
 header nav ul {
   list-style: none;
   padding: 0;
+  margin: 10px 0 0;
 }
+
 header nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px;
 }
+
 header nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #FFD700; /* gold hover effect */
 }
 
 /* Sections */
 section {
   padding: 20px;
   margin: 20px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.8); /* semi-transparent background for readability */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 
 /* Footer */
 footer {
@@ -48,4 +52,5 @@ footer {
   text-align: center;
   padding: 10px;
 }
+  
 
